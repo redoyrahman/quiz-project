@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log-in form</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link type="text/css" rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<div class="form-sec">
+    <div class="log-in-sec">
+        <h1>USER LOGIN</h1>
+        <form id="myForm" onsubmit="return check()" action="http://localhost/test%20project/">
+            <div class="username">
+                <label for="password">Username:</label>
+                <input type="text" name="Username" id="username" placeholder="username"/>
+                <span class="helper-text"></span>
+            </div>
+            <div class="password">
+                <label for="password">Password:</label>
+                <input type="password" name="Password" id="password"
+                       placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+                <span class="helper-text"></span>
+            </div>
+            <div class="button">
+                <button type="submit">Sign in</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
+
+</body>
+</html>
