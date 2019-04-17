@@ -8,7 +8,7 @@ function check(){
         return true;
     }
     else {
-        alert("agfuya");
+        alert("Wrong password");
         return false;
     }
 }

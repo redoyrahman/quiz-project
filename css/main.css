@@ -5,11 +5,11 @@
     font-size: 15px;
     color: #ffffff;
 }
+/*---------------------------------------------quiz-page-sec---------------------------------------------*/
 .quiz-content {
     margin-bottom: 30px;
 }
-
-.quiz-page-sec h1 {
+h1 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 55px;
@@ -71,3 +71,4 @@ button {
 .quiz-img-sec {
     margin-top: 15px;
 }
+/*---------------------------------------------quiz-page-sec---------------------------------------------*/
